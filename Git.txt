@@ -1,0 +1,22 @@
+FwIsMyKryptonite 
+pi3.1415926 
+2822652364@qq.com
+
+git init
+git add .
+git commit -m "***"
+git remote add origin https//:****.git
+git push origin master
+
+git status
+git diff first_git_file.txt
+git log --pretty=oneline
+git reset --hard HEAD^ 退回上一个版本
+git reset --hard 
+git reset HEAD readme.md 撤销暂存区的修改
+git checkout 撤销工作区的修改
+
+git reflog  找版本id
+
+
+
