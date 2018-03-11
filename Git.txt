@@ -14,6 +14,8 @@ git checkout -- readme.md撤销工作区的修改
 git checkout -- test.txt //git checkout其实是用版本库中的版本替代工作区的版本，无论工作区是修改还是删除都可以还原
 git rm test.txt  从版本库中删除test.txt文件
 
+$ git clone git@github.com:triaquae/gitskills.git克隆远程仓库
+
 
 $ ssh-keygen -t rsa -C "youremail@example.com" 创建SSH Key
 
@@ -21,4 +23,5 @@ $ ssh-keygen -t rsa -C "youremail@example.com" 创建SSH Key
 git reflog  找版本id
 
 
-
+$ git checkout -b dev    -b参数表示创建并切换 相当于 $ git branch dev + $ git checkout dev
+$ git branch 查看当前分支
