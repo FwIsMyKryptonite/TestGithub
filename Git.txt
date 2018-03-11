@@ -1,7 +1,3 @@
-FwIsMyKryptonite 
-pi3.1415926 
-2822652364@qq.com
-
 git init
 git add .
 git commit -m "***"
